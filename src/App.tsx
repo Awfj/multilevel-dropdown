@@ -7,7 +7,6 @@ import { ReactComponent as ChevronIcon } from "./icons/chevron.svg";
 import { ReactComponent as ArrowIcon } from "./icons/arrow.svg";
 import logo from './logo.svg';
 import {useState} from "react";
-import './App.css';
 
 function App() {
   const [open, setOpen] = useState(false);
